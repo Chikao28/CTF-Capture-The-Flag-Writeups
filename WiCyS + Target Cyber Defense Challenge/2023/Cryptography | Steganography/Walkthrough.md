@@ -1,6 +1,7 @@
 **1.**
 
 ![Screenshot 2023-07-12 170051](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/97c82ade-f84f-4f5e-a5fe-6b18a04058d4)
+
 I used CyberChef and used the ROT13 cipher to dedode the string "GUR GNETRG UNF ORRA NPDHVERQ" and received the flag.
 FLAG: {THE TARGET HAS BEEN ACQUIRED}
 
