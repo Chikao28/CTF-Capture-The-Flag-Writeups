@@ -1,5 +1,5 @@
-![Cyber-Defense-Challange-Pyramid-Email-2-3](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/904b2f36-0798-4f3f-a943-b709ba7b5b40)
-
+![Screenshot 2023-07-12 170051](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/3ddfdc6d-4aa4-4580-9412-e4e8e84e95e7)
+ 
 I used CyberChef and used the ROT13 cipher to dedode the string "GUR GNETRG UNF ORRA NPDHVERQ" and received the flag.
 FLAG: {THE TARGET HAS BEEN ACQUIRED}
 
