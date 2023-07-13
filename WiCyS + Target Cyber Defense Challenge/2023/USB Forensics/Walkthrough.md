@@ -25,4 +25,4 @@ FLAG{USBMS}
 
 To tackle this challenge, I utilized CyberChef and uploaded the pcap file. I used the "extract files" operation, which allowed me to uncover several files within the pcap. While inspecting these files, I came across an image that contained the hidden flag.
 
-![Screenshot 2023-07-12 222416](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/760e0fa7-0f7b-45b4-84ef-dcaccc4d81c2)
+![Screenshot 2023-07-12 222416](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/881d5ebc-1690-4325-a5af-dd2431f6f66b)
