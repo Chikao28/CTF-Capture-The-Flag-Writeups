@@ -52,7 +52,7 @@ While pondering the term "cobalt," I drew a parallel to the color cobalt blue. L
 
 During the challenge, we were given three files: a binary (bin) file and two encrypted flag text files. A crucial detail that emerged was that Shiny Scorpion ransomware group had copied code from an existing gang.
 
-Upon observing the unusual "C_I_0P" extension, I delved into more extensive research and unveiled the fact that CI0P was a renowned threat actor. Luckily, earlier iterations of their ransomware exhibited encryption weaknesses. As a solution, SentinelOne created a dedicated decryptor tool that could be obtained from: https://github.com/SentineLabs/Cl0p-ELF-Decryptor.
+Upon observing the unusual "C_I_0P" extension, I did an extensive research and found that Shiny Scorpion copied from the CI0P group. Luckily, earlier iterations of their ransomware exhibited encryption weaknesses. As a solution, SentinelOne created a dedicated decryptor tool that could be obtained from: https://github.com/SentineLabs/Cl0p-ELF-Decryptor.
 
 By using the ELF Decryptor tool from Sentine Labs, I effectively decrypted the sting.bin file by applying it to the "flag.txt.C_I_0P" text file. After executing this tool I finally found the flag.
 
