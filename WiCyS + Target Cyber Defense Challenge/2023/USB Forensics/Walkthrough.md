@@ -4,7 +4,7 @@
 
 In this particular challenge, we are presented with a pcap file. To tackle the task, we meticulously analyzed the file, carefully identifying and categorizing the various devices depicted within. During this process, I successfully identified the Blue Yeti device, which ultimately led me to discover the flag concealed within its data.
 
-'FLAG{(B58E)(0005)}'
+`FLAG{(B58E)(0005)}`
 
 ![Screenshot 2023-07-12 204309](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/2f6e8e9c-24ed-4a27-974a-5280ba6b7218)
 
@@ -16,7 +16,7 @@ In this particular challenge, we are presented with a pcap file. To tackle the t
 
 This challenge presented a direct question that required a brief answer. After conducting a quick google search, I promptly discovered the flag
 
-'FLAG{USBMS}'
+`FLAG{USBMS}`
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ This challenge presented a direct question that required a brief answer. After c
 
 To tackle this challenge, I utilized CyberChef and uploaded the pcap file. I used the "extract files" operation, which allowed me to uncover several files within the pcap. While inspecting these files, I came across an image that contained the hidden flag.
 
-'FLAG{Not_An0ther_N3twork_Pcap}'
+`FLAG{Not_An0ther_N3twork_Pcap}`
 
 
 ![Screenshot 2023-07-12 222416](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/881d5ebc-1690-4325-a5af-dd2431f6f66b)
@@ -44,7 +44,7 @@ As part of the solution, I had to create a separate script to ensure that colons
 
 ![Screenshot 2023-07-13 003123](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/e3223ba5-aa93-431f-b8b9-d83987234b55)
 
-'FLAG{U_are_1_Clev3r_Cat}'
+`FLAG{U_are_1_Clev3r_Cat}`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **5.**
@@ -59,7 +59,7 @@ To initiate the process, I created a filter using 'usb.src == '1.11.4' and focus
 
 I successfully implemented a Python script I found online which that played a crucial role in solving the challenge. This script was designed to leverage a set of predetermined USB hex codes and perform an iterative process through the data stored in the keypress_data.txt file. As a result of this execution, I achieved the desired outcome, obtaining the flag.
 
-'FLAG{I_See_You_F0und_The_Key$}'
+`FLAG{I_See_You_F0und_The_Key$}`
 
 ![Screenshot 2023-07-13 005825](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/57b3bd6c-ea3b-4cbc-9cb1-1d841680db4c)
 
