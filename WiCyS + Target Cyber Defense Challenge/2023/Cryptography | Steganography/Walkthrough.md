@@ -57,14 +57,19 @@ FLAG{THEPLANISINPLACE}
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**5.**
 
+![Screenshot 2023-07-12 195054](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/e6916275-497c-4bf3-ba32-6989a3e8482b)
 
+This challenge revolved around a straightforward Diffie-Hellman key exchange problem. The provided text mentioned Alice requesting specific quantities of food items from Bob, including nine orders of papaya salad, seven orders of grape pastries, six dozen apples, and eight loaves of banana bread. The mention of "Director Diffie-Hellman" alluded to the renowned Diffie-Hellman Key Exchange algorithm.
 
+To solve this challenge, I utilized a Diffie-Hellman calculator. By correctly inputting the prime number (P), ensuring the generator (G) was less than the prime number, and considering that private keys could be either 8 or 6, I performed the necessary calculations. Ultimately, this enabled me to uncover the flag and successfully complete the challenge.
 
+FLAG{1}
 
+![Screenshot 2023-07-12 195835](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/8ccb631b-1c3b-4ae3-b1b9-95055667164a)
 
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
