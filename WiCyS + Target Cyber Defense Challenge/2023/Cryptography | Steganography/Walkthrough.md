@@ -32,7 +32,7 @@ FLAG{Start the ransomware attack on Monday}
 ![Screenshot 2023-07-12 180543](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/e0615219-77df-49f6-9b01-bc35efc9c3e1)
 
 Let me start off by saying the title of this challenge turned out to be quite deceptive! It presented a seemingly harmless .txt file containing the renowned poem "Spellbound" by Emily Brontë.
-Considering the surplus of blank spaces following the sentences, I delved into the realm of whitespace steganography, conducting thorough research on the topic. During my exploration, I stumbled upon stegsnow, a widely recognized tool that employs the technique of appending whitespace to hide ASCII text within a file. Given the snowy connotation of the title, it seemed obvious to give this tool a try. However, I ende up in a rabbit hole... Later I realized all I had to do was count the whitespaces and created a simple puthon script that automatically counts it for me.
+Considering the surplus of blank spaces following the sentences, I conducted thorough research on stegonagraphy whitespaces. During my research, I stumbled upon stegsnow, a widely recognized tool that employs the technique of appending whitespace to hide ASCII text within a file. Given the snowy connotation of the title, it seemed obvious to give this tool a try. However, I ende up in a rabbit hole... Later I realized all I had to do was count the whitespaces and created a simple puthon script that automatically counts it for me.
 
 After executing the script, the output consisted of decimal numbers. Recognizing their potential significance, I proceeded to convert them to ASCII characters. Through this conversion process, I discovered the flag hidden within the text!
 
