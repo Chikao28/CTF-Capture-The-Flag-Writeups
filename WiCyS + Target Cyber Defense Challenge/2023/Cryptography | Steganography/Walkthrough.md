@@ -23,7 +23,9 @@ I ran zsteg and successfully extracted the Least Significant Bit (LSB) data: Kai
 
 Following the clues provided in the challenge description, I applied the Vigenère cipher to decrypt the string. Knowing that this cipher involves a key, I contemplated the possibility of another element concealing the key. Despite my thorough investigation, I couldn't locate any such component. As a last resort, I decided to try the name of the ransomware gang, "shinyscorpion," and to my delight, it turned out to be the correct key!
 
-FLAG{Start the ransomware attack on Monday}
+FLAG{StarttheransomwareattackonMonday}
+
+![Screenshot 2023-07-12 210026](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/11a55ff6-17c1-4119-9de8-023f8c361c14)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
