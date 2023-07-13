@@ -17,6 +17,7 @@ FLAG{(B58E)(0005)}
 This challenge presented a direct question that required a brief answer. After conducting a quick google search, I promptly discovered the flag
 
 FLAG{USBMS}
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **3.**
@@ -40,6 +41,21 @@ As part of the solution, I had to create a separate script to ensure that colons
 
 ![Screenshot 2023-07-13 003123](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/e3223ba5-aa93-431f-b8b9-d83987234b55)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**5.**
+
+![Screenshot 2023-07-13 003640](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/cc3062f1-484a-476b-aefb-7f82bbcdb982)
+
+In a similar scenario as before, we were provided with a pcap file and tasked with plotting the data. However, this time our objective was to convert keystroke data into their corresponding characters.
+
+To initiate the process, I created a filter using 'usb.src == '1.11.4'' and focused on identifying the HID (Human Interface Device) data within the file. To navigate through the subsequent steps, I sought guidance from a useful resource, specifically https://github.com/bolisettynihith/USB-Keyboard-Parser.
+
+![Screenshot 2023-07-13 004401](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/e82c1011-4624-48f7-bbcf-048dec05fbe3)
+
+I successfully implemented a Python script I found online which that played a crucial role in solving the challenge. This script was designed to leverage a set of predetermined USB hex codes and perform an iterative process through the data stored in the keypress_data.txt file. As a result of this execution, I achieved the desired outcome, obtaining the flag.
+
+FLAG{I_See_You_F0und_The_Key$}
+
+![Screenshot 2023-07-13 005825](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/57b3bd6c-ea3b-4cbc-9cb1-1d841680db4c)
 
 
 
