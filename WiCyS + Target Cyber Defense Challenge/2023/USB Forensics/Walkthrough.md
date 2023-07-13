@@ -12,3 +12,17 @@ FLAG{(B58E)(0005)}
 
 **2.**
 
+![Screenshot 2023-07-12 221309](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/1199c940-e1b3-4fe0-a924-7e698689e957)
+
+This challenge presented a direct question that required a brief answer. After conducting a quick google search, I promptly discovered the flag
+
+FLAG{USBMS}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**3.**
+
+![Screenshot 2023-07-12 221713](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/6f69e66c-10e5-4f23-a051-18c6b27b2c75)
+
+To tackle this challenge, I utilized CyberChef and uploaded the pcap file. I used the "extract files" operation, which allowed me to uncover several files within the pcap. While inspecting these files, I came across an image that contained the hidden flag.
+
+![Screenshot 2023-07-12 222416](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/760e0fa7-0f7b-45b4-84ef-dcaccc4d81c2)
