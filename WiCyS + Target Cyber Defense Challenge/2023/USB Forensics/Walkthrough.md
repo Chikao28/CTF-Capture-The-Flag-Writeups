@@ -36,7 +36,7 @@ To tackle this challenge, I utilized CyberChef and uploaded the pcap file. I use
 
 ![Screenshot 2023-07-13 001503](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/6c532353-6252-44fb-98dc-93125cf9e23c)
 
-To solve this challenge, I began by downloading the pcap file and filtering it based on the condition `usb.data_len == 4` to locate the required packets. I then exported those specific packets for further analysis. To guide me through the remaining steps, I referred to a helpful resource, specifically https://disconnect3d.pl/2016/05/02/Google-CTF-2016-For2-writeup/.
+To solve this challenge, I began by downloading the pcap file and filtering it based on the condition usb.data_len == 4 to locate the required packets. I then exported those specific packets for further analysis. To guide me through the remaining steps, I referred to a helpful resource, specifically https://disconnect3d.pl/2016/05/02/Google-CTF-2016-For2-writeup/.
 
 As part of the solution, I had to create a separate script to ensure that colons were added after every two characters. This step was crucial to follow the required formatting. By combining these techniques and resources, I successfully completed the challenge.
 
