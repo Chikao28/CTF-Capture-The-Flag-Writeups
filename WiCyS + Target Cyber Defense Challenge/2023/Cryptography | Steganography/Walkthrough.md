@@ -22,9 +22,11 @@ I ran zsteg and successfully extracted the Least Significant Bit (LSB) data: Kai
 
 Following the clues provided in the challenge description, I applied the Vigenère cipher to decrypt the aforementioned string. Knowing that this cipher involves a key, I contemplated the possibility of another element concealing the key. Despite my thorough investigation, I couldn't locate any such component. As a last resort, I decided to try the name of the ransomware gang, "shinyscorpion," and to my delight, it turned out to be the correct key!
 FLAG: {Start the ransomware attack on Monday}
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **3.**
+
 ![Screenshot 2023-07-12 180543](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/e0615219-77df-49f6-9b01-bc35efc9c3e1)
 
 Let me start off by saying the title of this challenge turned out to be quite deceptive! It presented a seemingly harmless .txt file containing the renowned poem "Spellbound" by Emily Brontë.
