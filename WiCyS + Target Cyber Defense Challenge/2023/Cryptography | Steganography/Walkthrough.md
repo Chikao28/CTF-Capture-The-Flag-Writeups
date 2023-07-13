@@ -4,7 +4,7 @@
 
 I used CyberChef and used the ROT13 cipher to dedode the string "GUR GNETRG UNF ORRA NPDHVERQ" and received the flag.
 
-FLAG{THE TARGET HAS BEEN ACQUIRED}
+`FLAG{THE TARGET HAS BEEN ACQUIRED}`
 
 ![Screenshot 2023-07-12 170529](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/06eb5ee2-f7e4-431c-bbd6-b852da7beb4c)
 
@@ -23,7 +23,7 @@ I ran zsteg and successfully extracted the Least Significant Bit (LSB) data: Kai
 
 Following the clues provided in the challenge description, I applied the Vigenère cipher to decrypt the string. Knowing that this cipher involves a key, I contemplated the possibility of another element concealing the key. Despite my thorough investigation, I couldn't locate any such component. As a last resort, I decided to try the name of the ransomware gang, "shinyscorpion," and to my delight, it turned out to be the correct key!
 
-FLAG{StarttheransomwareattackonMonday}
+`FLAG{StarttheransomwareattackonMonday}`
 
 ![Screenshot 2023-07-12 210026](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/11a55ff6-17c1-4119-9de8-023f8c361c14)
 
@@ -38,7 +38,7 @@ Considering the surplus of blank spaces following the sentences, I conducted tho
 
 After executing the script, the output consisted of decimal numbers. Recognizing their potential significance, I proceeded to convert them to ASCII characters. Through this conversion process, I discovered the flag hidden within the text!
 
-FLAG{QU1X0T1CALLY}
+`FLAG{QU1X0T1CALLY}`
 
 ![Screenshot 2023-07-12 184027](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/e4ffc565-a0db-40db-8298-defbc7f8b0c7)
 ![Screenshot 2023-07-12 185912](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/d6b1b109-f32b-41b9-9941-4ea1eb027275)
@@ -53,7 +53,7 @@ Upon initial inspection, the encoded message resembled Morse code, but upon clos
 
 To decipher the message, I turned to the helpful online tool at https://www.cachesleuth.com/multidecoder/, which featured a Bacon decoder. Utilizing this tool, I successfully decoded the message and unveiled the flag!
 
-FLAG{THEPLANISINPLACE}
+`FLAG{THEPLANISINPLACE}`
 
 ![Screenshot 2023-07-12 193926](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/dc76e713-e4d0-4ff7-8f44-e31069b0bc70)
 
@@ -67,7 +67,7 @@ This challenge revolved around a straightforward Diffie-Hellman key exchange pro
 
 To solve this challenge, I utilized a Diffie-Hellman calculator. By correctly inputting the prime number (P), ensuring the generator (G) was less than the prime number, and considering that private keys could be either 8 or 6, I performed the necessary calculations. Ultimately, this enabled me to uncover the flag and successfully complete the challenge.
 
-FLAG{1}
+`FLAG{1}`
 
 ![Screenshot 2023-07-12 195835](https://github.com/Chikao28/CTF-Capture-The-Flag-Writeups/assets/90115832/8ccb631b-1c3b-4ae3-b1b9-95055667164a)
 
